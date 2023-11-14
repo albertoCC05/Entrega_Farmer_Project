@@ -4878,6 +4878,9 @@ GameObject:
   - component: {fileID: 495073310026591170}
   - component: {fileID: 8402178663043549235}
   - component: {fileID: 2382824494200522269}
+  - component: {fileID: 1298914006189357288}
+  - component: {fileID: 2377339776660727020}
+  - component: {fileID: 2596366382491428046}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Dog
@@ -4894,8 +4897,8 @@ Transform:
   m_GameObject: {fileID: 6658147950347625849}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 9.3, y: 0, z: -7.8}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalPosition: {x: 9.3, y: 0, z: -7.7976}
+  m_LocalScale: {x: 19.540607, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4613158298470789476}
@@ -4977,8 +4980,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.11581425, y: 1.9382042, z: 3.9043822}
-  m_Center: {x: 0.0050662817, y: -0.10076409, z: 0.104161456}
+  m_Size: {x: 2.990016, y: 0.210851, z: 0.28311136}
+  m_Center: {x: 0.41118702, y: 0.10699584, z: 0.020717312}
 --- !u!114 &2382824494200522269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4992,6 +4995,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dogSpeed: 10
+--- !u!114 &1298914006189357288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6658147950347625849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dffe1e9c42cfda34189b99a6bc6fd5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &2377339776660727020
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6658147950347625849}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2596366382491428046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6658147950347625849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5b7b608d9e2e74ca45d142cda29574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6664811156303851751
 GameObject:
   m_ObjectHideFlags: 0

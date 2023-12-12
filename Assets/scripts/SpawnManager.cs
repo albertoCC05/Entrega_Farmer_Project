@@ -33,6 +33,7 @@ public class SpawnManager : MonoBehaviour
     private Vector3 RandomSpawnPos()
     {
         float randomX = Random.Range(spawnRangex2, spawnRangex);
+       
 
         return new Vector3(randomX, 23, -7);
 
